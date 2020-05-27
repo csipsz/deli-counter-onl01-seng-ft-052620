@@ -7,6 +7,7 @@ def line(katz_deli)
     while count < katz_deli.size
       result.push(count.to_s + '. ')
       result.push(katz_deli[count])
+      count += 1 
     end
     result
   end  
