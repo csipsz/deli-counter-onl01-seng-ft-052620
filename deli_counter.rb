@@ -19,4 +19,5 @@ def take_a_number(katz_deli, name)
 end 
 
 def now_serving(katz_deli)
-  current = katz_deli.shift
+  current = katz_deli.shift()
+  puts 
