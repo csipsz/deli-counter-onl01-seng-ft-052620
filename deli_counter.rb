@@ -8,6 +8,6 @@ def line(katz_deli)
       result += "#{count + 1}. #{katz_deli[count]} "
       count += 1 
     end
-    puts result
+    puts result.sli
   end  
 end
