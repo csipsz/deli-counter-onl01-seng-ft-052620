@@ -5,7 +5,7 @@ def line(katz_deli)
     count = 0 
     result = 'The line is currently: '
     while count < katz_deli.size
-      result += "#{count.to_s + 1}. #{katz_deli[count]} "
+      result += "#{count + 1}. #{katz_deli[count]} "
       count += 1 
     end
     puts result
