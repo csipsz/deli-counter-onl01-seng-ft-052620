@@ -9,6 +9,6 @@ def line(katz_deli)
       result += katz_deli[count]
       count += 1 
     end
-    result
+    puts result
   end  
 end
